@@ -1,0 +1,6 @@
+.idea
+testProject/lib
+testProject/out
+testProject/cache
+
+.env
