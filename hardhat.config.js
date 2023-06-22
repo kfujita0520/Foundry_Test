@@ -23,13 +23,13 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: process.env.MAINNET_ALCHEMY_URL,
+        url: process.env.MAINNET_RPC_URL,
         blockNumber: 15638626
       }
     },
 
     goerli: {
-      url: process.env.GOERLI_ALCHEMY_URL,
+      url: process.env.GOERLI_RPC_URL,
       accounts: [process.env.PRIVATE_KEY]
     }
 

@@ -1,9 +1,7 @@
 .idea
-testProject/lib
-testProject/out
-testProject/cache
-
 .env
+
+out
 
 node_modules
 .env
